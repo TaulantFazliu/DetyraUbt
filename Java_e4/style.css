@@ -3,14 +3,17 @@
     justify-content: center;
     padding-top: 0px;
     flex-direction: column;
+    height: 50vh;
+
 }
 
 .headeri .fotojaa{
     display: flex;
     width: 60%;
-    height: 20%;
+    height: 590px;
     justify-content: center;
     margin-left: 20%;
+    margin-top: -10px;
 }
 .shade{
     width: 59.3%;
@@ -19,6 +22,7 @@
     opacity: 50%;
     position: absolute;
     margin-left: 19.8%;
+    margin-top: -5px;
 }
 .texti {
     position: absolute;
@@ -65,3 +69,153 @@
 .headeri .btn2:hover{
     background-color: rgb(59, 0, 59);
 }
+
+.second_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-left: 293px;
+    padding: 0 100px;
+    padding-top: 20px;
+    width: 46.3%;
+    height: 38vh;
+    padding-bottom: 60px;
+    
+}
+
+.second_box .top_part{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.second_box .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 70px;
+}
+.second_box .pjesa_txt{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    /* margin: 0px 370px; */
+    flex-basis: 400px;
+}
+.second_box .pjesa_txt p{
+font-size: small;
+color: gray;
+}
+.second_box .pjesa_txt h6{
+font-size: medium;
+}
+.shade2{
+    width: 59.5%;
+    height:30.5%;
+    background: blue;
+    opacity: 50%;
+    position: absolute;
+    margin-left: 19.8%;
+    margin-top: 0px;
+}
+.third_box .fotoja2{
+    display: flex;
+    width: 60.2%;
+    height: 220px;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: -10px;
+}
+#ikona{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 47.9%;
+    margin-top: 40px;
+    position: absolute;
+    
+}
+
+#txt{
+    
+        position: absolute;
+        top: 130%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.forth_box{
+    
+    height: 20vh;
+    padding-bottom: 40px;
+    
+}
+
+.forth_box .iconsa{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 0px 450px;
+   padding-top: 50px;
+   
+}
+.forth_box .numrat ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 430px;
+    margin-left: 400px;
+    margin-top:20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.forth_box .tekssst ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 460px;
+    margin-left: 400px;
+    margin-top:20px;
+    font-size: x-small;
+    text-align: center;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fifth_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 92px;
+    margin-left: 293px;
+    padding: 0 100px;
+    padding-top: 180px;
+    width: 46.3%;
+    height: 38vh;
+    
+    background-color: rgb(245, 245, 245);
+}
+.fifth_box .imggg{
+    display: flex;
+    
+}
+.fifth_box .pjesa_djatht h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fifth_box .pjesa_djatht input[type='button']{
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+}
+
