@@ -1,95 +1,150 @@
-#bodie{
-    background-color: aquamarine;
-}
-.Headeri{
-    font-size: small;
-    float: right;
-    margin-right: 10%;
-    margin-top: 5%;
+body{
+    background-color: #34eb68;
 }
 .hederri{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 .hederri ul{
-    list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    list-style-type: none;
+    cursor: pointer;
 }
-.hederri .btn1{
-    margin-right: 10px;
-    background-color:rgb(1, 134, 151) ;
-    border: 0 solid black;
-    border-radius: 5px;
+
     
+.btn1{
+    border: 0 solid black;
+    border: none;
+    background-color: #32a0a8;
+    border-radius: 5px;
+    margin: 0 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn1:hover{
+    background-color: #094d52;
+    width: 120px;
+    height: 60px;
 }
 .fieldi{
-    padding-left: 30px;
-    width: 400px;
-    height: 200px;
-    margin: 100px;
-    margin-left: 505px;
-    background-color: rgb(1, 134, 151);
-    border-radius: 20px ;
-    border-style: hidden;
-    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 0 solid black;
+    border-radius: 15px;
+    background-color: #32a0a8;
+    width: 700px;
+    height: 300px;
+    margin-left : 400px;
 }
-.butoniregister{
-    margin-left: 160px;
+.fieldi .butonat_nalt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-.butonilogin{
+#btnlg {
+    border: 0 solid black;
+    background-color: #32a0a8;
+    width: 360px;
+    height: 40px;
+    border-bottom: 0.5px solid gray ;
+    border-left: 2px solid gray;
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btnlg:hover{
+    background-color: #094d52;
+}
+#btnlg2{
+    border: 0 solid black;
+    background-color: #32a0a8;
+    width: 360px;
+    height: 40px;
+    border-bottom: 0.5px solid gray ;
+    border-left: 2px solid gray;
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btnlg2:hover{
+    background-color: #094d52;
+}
+.fieldi .pjest {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 250px;
+}
+.fieldi .pjest2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 250px;
+}
+
+#Labela1{
+    color: white;
     margin-left: 50px;
+    font-size: large;
     
 }
-.fieldi .butonilogin:hover{
-    background-color: rgb(66, 66, 66);
-}
-.fieldi .butoniregister:hover{
-    background-color: rgb(66, 66, 66);
-}
-.fieldi input[type='button']{
-    margin-bottom: 30px;
-    margin-top: 10px;
-    background: none;
-    font-weight: bolder;
-    border-color: gray;
-    border-top: 2px;
-    border-bottom: 2px;
-    border-right: 2px;
-    
-    
-}
-.fieldi input[ type='text'], input[type='password'], input[type='submit']{
-    border-radius: 10px;
-    
-}
-.fieldi input[type='submit']{
-    margin-top: 10px;
-    margin-left: 150px;
+#usertxt{
+    border: 0 solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 224, 224);
+    width: 350px;
+    height: 35px;
+    margin-left: -90px;
+    margin-top: 15px;
     margin-bottom: 20px;
-    background-color: rgb(0, 168, 0);
-    border-style: hidden;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 2px; padding-bottom: 2px;
-    
+}
+#mail{
+    border: 0 solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 224, 224);
+    width: 350px;
+    height: 35px;
+    margin-left: -90px;
+    margin-top: 15px;
+    margin-bottom: 20px; 
+}
+#labela2{
+    color: white;
+    margin-left: 50px;
+    font-size: large;
+}
+#userpass{
+    border: 0 solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 224, 224);
+    width: 350px;
+    height: 35px;
+    margin-left: -90px;
+    margin-top: 15px;
+}
+.fieldi .submiti{
+    margin-left: 300px;
+    margin-top: 20px;
+    border: 0 solid black;
+    border-radius: 5px;
+    background-color: #139939;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
 }
 .fieldi .submiti:hover{
-    background-color: rgb(0, 59, 0);
-}
-#Labela1, #labela2{
-padding-left: 150px;
-}
-.fieldi input[ type='text'], input[type='password']{
-    margin-left: 50px;
-    border-style: none;
-    height: 13px;
-    background-color: rgb(184, 184, 184);
-    width: 255px;
+background-color: #025a1b;
 }
 #Copyright{
+    margin-top: 200px;
     text-align: center;
+}
+.fieldi .forms{
+    overflow: hidden;
 }
 

@@ -6,7 +6,7 @@
         </title>
         <link rel="stylesheet" href="stylee.css">
     </head>
-    <body id="bodie">
+    <body >
         <header>
             <div class="hederri">
             <img src="logo.png" alt="Logoja" width="100px" height="100px"/>
@@ -21,24 +21,60 @@
         <br>
         <br>
 
-    <main>
         <fieldset class="fieldi">
-        <input type="button" class="butonilogin" value="Login">
-        <input type="button" class="butoniregister" value="Register">
+            <div class="butonat_nalt">
+        <input type="button" class="butonilogin" value="Login" id="btnlg" onclick="login()">
+        <input type="button" class="butoniregister" value="Register" id="btnlg2" onclick="register()">
+            </div>
         <br>
+        <div class="forms" id="forms">
+        <div class="pjest">
+        <div class="usernamee">
         <label for="Username" id="Labela1">Username:</label><br>
-        <input type="text" class="Username" placeholder="Username..."><br>
-
+        <input type="text" class="Username" id="usertxt" placeholder="Username..."><br>
+        </div>
+        <div>
         <label  id="labela2">Password:</label><br>
-        <input type="password" class="Password" placeholder="Password...">
+        <input type="password" class="Password" id="userpass" placeholder="Password...">
         <br>
+        </div>
+        </div>
         <input type="submit" name="submit" class="submiti" value="Log in">
 
+        <div class="pjest2" id="pjest2">
+            
+                <div class="usernamee">
+                    <label for="email" id="Labela1">E-mail:</label><br>
+                    <input type="email" class="email" id="mail" placeholder="Email..."><br>
+                <label for="Username" id="Labela1">Username:</label><br>
+                <input type="text" class="Username" id="usertxt" placeholder="Username..."><br>
+                </div>
+                <div>
+                <label  id="labela2">Password:</label><br>
+                <input type="password" class="Password" id="userpass" placeholder="Password...">
+                <br>
+                </div>
+                
+                <input type="submit" name="submit" class="submiti" value="Log in">
+
         </div>
-    </main>
+        </div>
+        </fieldset>
+
+        
+    
     <footer>
         <p id="Copyright">&copy <br><b>UBT-PRILL 2020</b><br><a href="https://github.com/TaulantFazliu/DetyraUbt">Linku per GitHub</a></p>
             
     </footer>
+    <script>
+        var x=document.getElementById("btnlg");
+        var y=document.getElementById("btnlg2");
+
+        function register(){
+            x.style.top="-400px";
+            y.style.top-"50px";
+        }
+    </script>
     </body>
 </html>
