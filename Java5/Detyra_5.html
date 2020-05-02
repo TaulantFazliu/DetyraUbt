@@ -1,80 +1,76 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Ubt Login
-        </title>
-        <link rel="stylesheet" href="stylee.css">
-    </head>
-    <body >
-        <header>
-            <div class="hederri">
-            <img src="logo.png" alt="Logoja" width="100px" height="100px"/>
+
+<head>
+    <title>
+        Ubt Login
+    </title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+
+<body>
+    <header>
+        <div class="hederri">
+            <img src="logo.png" alt="Logoja" width="100px" height="100px" />
             <ul>
                 <li><input type="button" value="Home" class="btn1"></li>
                 <li><input type="button" value="About Us" class="btn1"></li>
                 <li><input type="button" value="Contact Us" class="btn1"></li>
 
             </ul>
-            </div>
-        </header>
-        <br>
-        <br>
+        </div>
+    </header>
+    <br>
+    <br>
 
-        <fieldset class="fieldi">
-            <div class="butonat_nalt">
-        <input type="button" class="butonilogin" value="Login" id="btnlg" onclick="login()">
-        <input type="button" class="butoniregister" value="Register" id="btnlg2" onclick="register()">
-            </div>
+    <div class="fieldi">
+        <div class="butonat_nalt">
+            <button type="button" class="butonilogin"  id="btnlg" onclick="login()">Log In</button>
+            <button type="button" class="butoniregister" id="btnlg2" onclick="register()">Register</button>
+        </div>
         <br>
         <div class="forms" id="forms">
-        <div class="pjest">
-        <div class="usernamee">
-        <label for="Username" id="Labela1">Username:</label><br>
-        <input type="text" class="Username" id="usertxt" placeholder="Username..."><br>
-        </div>
-        <div>
-        <label  id="labela2">Password:</label><br>
-        <input type="password" class="Password" id="userpass" placeholder="Password...">
-        <br>
-        </div>
-        </div>
-        <input type="submit" name="submit" class="submiti" value="Log in">
-
-        <div class="pjest2" id="pjest2">
-            
+            <form class="pjest" id="logini">
                 <div class="usernamee">
-                    <label for="email" id="Labela1">E-mail:</label><br>
-                    <input type="email" class="email" id="mail" placeholder="Email..."><br>
-                <label for="Username" id="Labela1">Username:</label><br>
-                <input type="text" class="Username" id="usertxt" placeholder="Username..."><br>
+                    <label for="Username" id="Labela1">Username:</label><br>
+                    <input type="text" class="Username" id="usertxt" placeholder="Username..." required><br>
                 </div>
                 <div>
-                <label  id="labela2">Password:</label><br>
-                <input type="password" class="Password" id="userpass" placeholder="Password...">
-                <br>
+                    <label id="labela2">Password:</label><br>
+                    <input type="password" class="Password" id="userpass" placeholder="Password..." required>
+                    <br>
                 </div>
-                
                 <input type="submit" name="submit" class="submiti" value="Log in">
 
-        </div>
-        </div>
-        </fieldset>
+            </form>
 
-        
-    
+            <form class="pjest" id="registeri">
+                
+                <div class="usernamee">
+                    <label for="email" id="Labela1">E-mail:</label><br>
+                    <input type="email" class="email" id="mail" placeholder="Email..." required><br>
+                    <label for="Username" id="Labela1">Username:</label><br>
+                    <input type="text" class="Username" id="usertxt" placeholder="Username..." required><br>
+                </div>
+                <div>
+                    <label id="labela2">Password:</label><br>
+                    <input type="password" class="Password" id="userpass" placeholder="Password...">
+                    <br>
+                </div>
+
+                <input type="submit" name="submit" class="submiti" value="Sign Up">
+
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+<!-- 
     <footer>
-        <p id="Copyright">&copy <br><b>UBT-PRILL 2020</b><br><a href="https://github.com/TaulantFazliu/DetyraUbt">Linku per GitHub</a></p>
-            
-    </footer>
-    <script>
-        var x=document.getElementById("btnlg");
-        var y=document.getElementById("btnlg2");
+        <p id="Copyright">&copy <br><b>UBT-PRILL 2020</b><br><a href="https://github.com/TaulantFazliu/DetyraUbt">Linku
+                per GitHub</a></p>
 
-        function register(){
-            x.style.top="-400px";
-            y.style.top-"50px";
-        }
-    </script>
-    </body>
+    </footer> -->
+</body>
+
 </html>

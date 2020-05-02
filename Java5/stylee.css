@@ -37,7 +37,7 @@ justify-content: space-between;
     border-radius: 15px;
     background-color: #32a0a8;
     width: 700px;
-    height: 300px;
+    height: 400px;
     margin-left : 400px;
 }
 .fieldi .butonat_nalt{
@@ -47,11 +47,10 @@ justify-content: space-between;
 }
 #btnlg {
     border: 0 solid black;
-    background-color: #32a0a8;
+    background-color: transparent;
     width: 360px;
     height: 40px;
     border-bottom: 0.5px solid gray ;
-    border-left: 2px solid gray;
     color: white;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
@@ -61,7 +60,7 @@ justify-content: space-between;
 }
 #btnlg2{
     border: 0 solid black;
-    background-color: #32a0a8;
+    background-color: #32a0a8; 
     width: 360px;
     height: 40px;
     border-bottom: 0.5px solid gray ;
@@ -73,18 +72,18 @@ justify-content: space-between;
 #btnlg2:hover{
     background-color: #094d52;
 }
-.fieldi .pjest {
+/* .fieldi .pjest {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    left: 450px;
+} */
+/* .fieldi .pjest2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-left: 250px;
-}
-.fieldi .pjest2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-left: 250px;
-}
+} */
 
 #Labela1{
     color: white;
@@ -101,6 +100,11 @@ justify-content: space-between;
     margin-left: -90px;
     margin-top: 15px;
     margin-bottom: 20px;
+    padding-left: 10px;
+}
+.forms{
+    display: flex;
+    flex-direction: row;
 }
 #mail{
     border: 0 solid black;
@@ -111,6 +115,7 @@ justify-content: space-between;
     margin-left: -90px;
     margin-top: 15px;
     margin-bottom: 20px; 
+    padding-left: 10px;
 }
 #labela2{
     color: white;
@@ -125,9 +130,11 @@ justify-content: space-between;
     height: 35px;
     margin-left: -90px;
     margin-top: 15px;
+    padding-left: 10px;
+
 }
 .fieldi .submiti{
-    margin-left: 300px;
+    margin-left: 40px;
     margin-top: 20px;
     border: 0 solid black;
     border-radius: 5px;
@@ -147,4 +154,14 @@ background-color: #025a1b;
 .fieldi .forms{
     overflow: hidden;
 }
+#logini{
+    margin-left: 250px;
+position: relative;
+}
+#registeri{
+    margin-left: 400px;
+    position: relative;
+}
+
+
 
