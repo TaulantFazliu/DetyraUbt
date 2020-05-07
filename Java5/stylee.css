@@ -17,25 +17,28 @@ justify-content: space-between;
 .btn1{
     border: 0 solid black;
     border: none;
-    background-color: #32a0a8;
+    background-image:linear-gradient(45deg, #32a6a8, #328ca8);
     border-radius: 5px;
     margin: 0 5px;
+    margin-right: 20px;
     width: 100px;
-    height: 30px;
+    height: 40px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    transition: 0.5s ease;
 }
 .btn1:hover{
-    background-color: #094d52;
     width: 120px;
     height: 60px;
+    transition: 0.5s ease;
 }
 .fieldi{
     display: flex;
     flex-direction: column;
     border: 0 solid black;
     border-radius: 15px;
-    background-color: #32a0a8;
+    background-image:linear-gradient(45deg, #32a6a8, #328ca8);
     width: 700px;
     height: 400px;
     margin-left : 400px;
@@ -49,28 +52,28 @@ justify-content: space-between;
     border: 0 solid black;
     background-color: transparent;
     width: 360px;
-    height: 40px;
+    height: 50px;
     border-bottom: 0.5px solid gray ;
     color: white;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
 }
 #btnlg:hover{
-    background-color: #094d52;
+    background-color: #34ebab;
 }
 #btnlg2{
     border: 0 solid black;
-    background-color: #32a0a8; 
+    background-color: transparent; 
     width: 360px;
-    height: 40px;
+    height: 50px;
     border-bottom: 0.5px solid gray ;
     border-left: 2px solid gray;
     color: white;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
 }
 #btnlg2:hover{
-    background-color: #094d52;
+    background-color: #34ebab;
 }
 /* .fieldi .pjest {
     display: flex;
@@ -155,12 +158,39 @@ background-color: #025a1b;
     overflow: hidden;
 }
 #logini{
+    padding-top: 20px;
     margin-left: 250px;
 position: relative;
+transition: .5s ;
 }
 #registeri{
     margin-left: 400px;
     position: relative;
+    transition: .5s ;
+}
+@media only screen and (max-width: 375px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header img {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: 150px;
+    }
+
+    .headerList {
+        flex-wrap: nowrap;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    .headerList li {
+        margin: 0px;
+
+    }
 }
 
 

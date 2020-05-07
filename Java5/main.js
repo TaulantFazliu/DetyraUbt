@@ -10,3 +10,5 @@ var x = document.getElementById("logini");
             x.style.left = "10px";
             y.style.left = "410px";
         };
+
+        
